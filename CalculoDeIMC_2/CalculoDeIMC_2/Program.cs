@@ -25,23 +25,23 @@ namespace CalculoDeIMC_2
             {
                 Console.WriteLine($"Seu IMC é: {CalculoIMC} Abaixo do peso \nNome: {nome}\nIdade: {idade} anos");
             }
-            if (CalculoIMC >= 18.5 && CalculoIMC < 24.9)
+            if (CalculoIMC >= 18.5 && CalculoIMC <= 24.9)
             {
                 Console.WriteLine($"Seu IMC é: {CalculoIMC} - Normal \nNome: {nome}\nIdade: {idade} anos");
             }
-            else if (CalculoIMC >= 24.9 && CalculoIMC < 29.9)
+            else if (CalculoIMC >= 25 && CalculoIMC <= 29.9)
             {
                 Console.WriteLine($"Seu IMC é: {CalculoIMC} - Sobrepeso \nNome: {nome}\nIdade: {idade} anos");
             }
-            else if (CalculoIMC >= 30.0 && CalculoIMC < 35.9)
+            else if (CalculoIMC >= 30.0 && CalculoIMC <= 34.9)
             {
                 Console.WriteLine($"Seu IMC é: {CalculoIMC} - Obesidade Grau I \nNome: {nome}\nIdade: {idade} anos");
             }
-            if (CalculoIMC >= 35.9 && CalculoIMC < 39.9)
+            if (CalculoIMC >= 35.0 && CalculoIMC <= 39.9)
             {
                 Console.WriteLine($"Seu IMC é: {CalculoIMC} - Obesidade Grau II \nNome: {nome}\nIdade: {idade} anos");
             }
-            else if (CalculoIMC > 40)
+            else if (CalculoIMC >= 40)
             {
                 Console.WriteLine($"Seu IMC é: {CalculoIMC} - Obesidade Grau III \nNome: {nome}\nIdade: {idade} anos");
             }
