@@ -12,9 +12,9 @@ namespace CalculoDeIMC_2
             string nome = Console.ReadLine();
             Console.Write("Digite sua idade: ");
             string idade = Console.ReadLine();
-            Console.Write("Digite sua altura utilizando: ");
+            Console.Write("Digite sua altura: ");
             float altura = (float)Convert.ToDouble(Console.ReadLine());
-            Console.Write("Digite seu peso utilizando: ");
+            Console.Write("Digite seu peso: ");
             float peso = (float)Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine();
