@@ -19,31 +19,31 @@ namespace CalculoDeIMC_2
 
             Console.WriteLine();
 
-            float CalculoIMC = (float)Math.Round((peso / (altura * altura)), 2);
+            float Resultado = (float)Math.Round((peso / (altura * altura)), 2);
 
-            if (CalculoIMC >= 0 && CalculoIMC < 18.5)
+            if (Resultado >= 0 && Resultado < 18.5)
             {
-                Console.WriteLine($"Seu IMC é: {CalculoIMC} Abaixo do peso \nNome: {nome}\nIdade: {idade} anos");
+                Console.WriteLine($"Seu IMC é: {Resultado} Abaixo do peso \nNome: {nome}\nIdade: {idade} anos");
             }
-            if (CalculoIMC >= 18.5 && CalculoIMC <= 24.9)
+            if (Resultado >= 18.5 && Resultado <= 24.9)
             {
-                Console.WriteLine($"Seu IMC é: {CalculoIMC} - Normal \nNome: {nome}\nIdade: {idade} anos");
+                Console.WriteLine($"Seu IMC é: {Resultado} Normal \nNome: {nome}\nIdade: {idade} anos");
             }
-            else if (CalculoIMC >= 25 && CalculoIMC <= 29.9)
+            else if (Resultado >= 25 && Resultado <= 29.9)
             {
-                Console.WriteLine($"Seu IMC é: {CalculoIMC} - Sobrepeso \nNome: {nome}\nIdade: {idade} anos");
+                Console.WriteLine($"Seu IMC é: {Resultado} Sobrepeso \nNome: {nome}\nIdade: {idade} anos");
             }
-            else if (CalculoIMC >= 30.0 && CalculoIMC <= 34.9)
+            else if (Resultado >= 30.0 && Resultado <= 34.9)
             {
-                Console.WriteLine($"Seu IMC é: {CalculoIMC} - Obesidade Grau I \nNome: {nome}\nIdade: {idade} anos");
+                Console.WriteLine($"Seu IMC é: {Resultado} Obesidade Grau I \nNome: {nome}\nIdade: {idade} anos");
             }
-            if (CalculoIMC >= 35.0 && CalculoIMC <= 39.9)
+            if (Resultado >= 35.0 && Resultado <= 39.9)
             {
-                Console.WriteLine($"Seu IMC é: {CalculoIMC} - Obesidade Grau II \nNome: {nome}\nIdade: {idade} anos");
+                Console.WriteLine($"Seu IMC é: {Resultado} Obesidade Grau II \nNome: {nome}\nIdade: {idade} anos");
             }
-            else if (CalculoIMC >= 40)
+            else if (Resultado >= 40)
             {
-                Console.WriteLine($"Seu IMC é: {CalculoIMC} - Obesidade Grau III \nNome: {nome}\nIdade: {idade} anos");
+                Console.WriteLine($"Seu IMC é: {Resultado} Obesidade Grau III \nNome: {nome}\nIdade: {idade} anos");
             }
         }
     }
